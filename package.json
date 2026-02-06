@@ -1,0 +1,75 @@
+{
+  "name": "sl-studio",
+  "version": "2.000024372.2",
+  "description": "Hub de acceso eficiente a Microsoft 365 y Google Workspace para estudiantes chilenos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andysitostudio/Sl_Studios-releases.git"
+  },
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win --x64",
+    "dev": "electron . --dev"
+  },
+  "keywords": ["education", "microsoft", "google", "productivity", "chile"],
+  "author": "Sl Studio",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.2.2",
+    "bcryptjs": "^2.4.3",
+    "electron-updater": "^6.1.7",
+    "electron-log": "^5.0.1"
+  },
+  "build": {
+    "appId": "com.slstudio.app",
+    "productName": "Sl Studio",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "assets/icon.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "license": "LICENSE.txt",
+      "installerLanguages": ["es"],
+      "language": "3082"
+    },
+    "files": [
+      "src/**/*",
+      "assets/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "asarUnpack": [
+      "node_modules/better-sqlite3/**/*"
+    ],
+    "publish": {
+      "provider": "github",
+      "owner": "andysitostudio",
+      "repo": "Sl_Studios-releases",
+      "releaseType": "release"
+    }
+  }
+}

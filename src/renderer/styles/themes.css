@@ -1,0 +1,197 @@
+/* Temas de color para Sl Studio */
+
+/* Azul Eléctrico (por defecto) */
+.theme-electric-blue {
+  --primary-color: #00d9ff;
+}
+
+/* Púrpura Neón */
+.theme-neon-purple {
+  --primary-color: #8000ff;
+}
+
+/* Rosa Cyber */
+.theme-cyber-pink {
+  --primary-color: #ff006e;
+}
+
+/* Verde Matrix */
+.theme-matrix-green {
+  --primary-color: #00ff88;
+}
+
+/* Naranja Ardiente */
+.theme-fire-orange {
+  --primary-color: #ff6600;
+}
+
+/* Amarillo Dorado */
+.theme-gold-yellow {
+  --primary-color: #ffd700;
+}
+
+/* Rojo Escarlata */
+.theme-scarlet-red {
+  --primary-color: #ff3333;
+}
+
+/* Turquesa */
+.theme-turquoise {
+  --primary-color: #40e0d0;
+}
+
+/* Magenta */
+.theme-magenta {
+  --primary-color: #ff00ff;
+}
+
+/* Lime */
+.theme-lime {
+  --primary-color: #ccff00;
+}
+
+/* Coral */
+.theme-coral {
+  --primary-color: #ff7f50;
+}
+
+/* Lavanda */
+.theme-lavender {
+  --primary-color: #b57edc;
+}
+
+/* Menta */
+.theme-mint {
+  --primary-color: #3eb489;
+}
+
+/* Ámbar */
+.theme-amber {
+  --primary-color: #ffbf00;
+}
+
+/* Índigo */
+.theme-indigo {
+  --primary-color: #4b0082;
+}
+
+/* Teal */
+.theme-teal {
+  --primary-color: #008080;
+}
+
+/* Carmesí */
+.theme-crimson {
+  --primary-color: #dc143c;
+}
+
+/* Aguamarina */
+.theme-aquamarine {
+  --primary-color: #7fffd4;
+}
+
+/* Violeta */
+.theme-violet {
+  --primary-color: #9400d3;
+}
+
+/* Océano */
+.theme-ocean {
+  --primary-color: #0077be;
+}
+
+/* Salmón */
+.theme-salmon {
+  --primary-color: #fa8072;
+}
+
+/* Esmeralda */
+.theme-emerald {
+  --primary-color: #50c878;
+}
+
+/* Rubí */
+.theme-ruby {
+  --primary-color: #e0115f;
+}
+
+/* Zafiro */
+.theme-sapphire {
+  --primary-color: #0f52ba;
+}
+
+/* Modos de fondo */
+.mode-dark {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #151515;
+  --bg-tertiary: #1f1f1f;
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --border-color: #2a2a2a;
+}
+
+.mode-light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-tertiary: #e0e0e0;
+  --text-primary: #000000;
+  --text-secondary: #666666;
+  --border-color: #d0d0d0;
+}
+
+/* Colores disponibles para el selector */
+.color-option {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+.color-option.selected {
+  border-color: var(--text-primary);
+  box-shadow: 0 0 12px currentColor;
+}
+
+.color-option::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  background: currentColor;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+}
+
+.color-electric-blue::after { background: #00d9ff; }
+.color-neon-purple::after { background: #8000ff; }
+.color-cyber-pink::after { background: #ff006e; }
+.color-matrix-green::after { background: #00ff88; }
+.color-fire-orange::after { background: #ff6600; }
+.color-gold-yellow::after { background: #ffd700; }
+.color-scarlet-red::after { background: #ff3333; }
+.color-turquoise::after { background: #40e0d0; }
+.color-magenta::after { background: #ff00ff; }
+.color-lime::after { background: #ccff00; }
+.color-coral::after { background: #ff7f50; }
+.color-lavender::after { background: #b57edc; }
+.color-mint::after { background: #3eb489; }
+.color-amber::after { background: #ffbf00; }
+.color-indigo::after { background: #4b0082; }
+.color-teal::after { background: #008080; }
+.color-crimson::after { background: #dc143c; }
+.color-aquamarine::after { background: #7fffd4; }
+.color-violet::after { background: #9400d3; }
+.color-ocean::after { background: #0077be; }
+.color-salmon::after { background: #fa8072; }
+.color-emerald::after { background: #50c878; }
+.color-ruby::after { background: #e0115f; }
+.color-sapphire::after { background: #0f52ba; }

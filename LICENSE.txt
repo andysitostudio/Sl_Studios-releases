@@ -1,0 +1,44 @@
+ACUERDO DE LICENCIA DE USO DE Sl STUDIO
+
+Copyright (c) 2025 Sl Studio
+
+TÉRMINOS Y CONDICIONES
+
+1. LICENCIA DE USO
+Sl Studio se proporciona gratuitamente para uso educativo personal. Esta licencia le permite:
+- Instalar y usar el software en sus dispositivos personales
+- Usar el software para propósitos educativos
+
+2. RESTRICCIONES
+No está permitido:
+- Redistribuir, vender o sublicenciar el software
+- Modificar, descompilar o realizar ingeniería inversa
+- Usar el software con fines comerciales sin autorización
+
+3. PROPIEDAD INTELECTUAL
+Sl Studio y todos sus componentes son propiedad de sus creadores. Los logos y marcas de Microsoft, Google y otros terceros son propiedad de sus respectivas compañías.
+
+4. PRIVACIDAD Y DATOS
+- Los datos se almacenan localmente en su dispositivo
+- Cumplimos con la Ley 19.628 de Chile sobre protección de datos
+- No compartimos sus datos personales con terceros
+
+5. LIMITACIÓN DE RESPONSABILIDAD
+Sl Studio se proporciona "tal cual", sin garantías de ningún tipo. Los creadores no se responsabilizan por:
+- Pérdida de datos
+- Daños directos o indirectos derivados del uso del software
+- Interrupciones del servicio
+
+6. SERVICIOS DE TERCEROS
+Sl Studio proporciona acceso a servicios de Microsoft, Google y otros. El uso de estos servicios está sujeto a sus propios términos y condiciones.
+
+7. EDAD MÍNIMA
+Para usar Sl Studio debes tener al menos 8 años de edad. Los menores de 14 años requieren autorización de un adulto responsable.
+
+8. MODIFICACIONES
+Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios importantes serán notificados a los usuarios.
+
+9. JURISDICCIÓN
+Este acuerdo se rige por las leyes de la República de Chile.
+
+Al instalar Sl Studio, usted acepta estos términos y condiciones.
